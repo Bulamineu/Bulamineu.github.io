@@ -1,6 +1,9 @@
 * {
   margin:0px;
-  padding:0px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 img {
@@ -10,10 +13,6 @@ img {
 }
 
 h1 {
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
   align:center;
   display: block;
   font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
