@@ -33,6 +33,6 @@ p {
 }
 
 #b {
-  width: 100px;
+  padding= 0px;
   align: center;
 }
