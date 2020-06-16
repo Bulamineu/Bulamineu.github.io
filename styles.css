@@ -20,6 +20,6 @@ p, dl {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-#b {
-  padding= 0px;
+button {
+  width = 50px;
 }
