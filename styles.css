@@ -6,11 +6,13 @@ img {
 }
 
 h1 {
+  padding-left: 10px;
   display: block;
   font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 h2 {
+  padding-left:10px;
   font: 40px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
