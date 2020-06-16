@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   display: block;
-  font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 40px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 p {
@@ -31,6 +31,6 @@ p {
 }
 
 b {
-  width: 50px;
+  width: 100px;
   align: center;
 }
