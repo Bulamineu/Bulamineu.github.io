@@ -3,7 +3,7 @@
   padding:0px;
 }
 
-#octocat {
+img {
   display: block;
   width:384px;
   margin: 50px auto;
@@ -31,7 +31,7 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-b {
+#b {
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
