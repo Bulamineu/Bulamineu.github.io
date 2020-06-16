@@ -11,14 +11,14 @@
 
 h1 {
   display: block;
-  width: 400px;
+  width: 300px;
   text-align: center;
   font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 h2 {
   display: block;
-  width: 400px;
+  width: 500px;
   text-align: center;
   font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
