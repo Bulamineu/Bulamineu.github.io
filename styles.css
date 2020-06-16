@@ -14,11 +14,13 @@ img {
 }
 
 h1 {
+  border: 5px solid black;
   display: block;
   font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
 h2 {
+  padding-left: 50px;
   display: block;
   font: 40px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
