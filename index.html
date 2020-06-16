@@ -26,19 +26,35 @@
 <p>What would you like to do now?</p>
 <dl>
   <dt id="option1">I could tell you something</dt>
-  <dd><button id="button" type="button" onclick="myFunction()">I feel lucky!</button></dd>
+  <dd><button id="button" type="button" onclick="mySurprise()">I feel lucky!</button></dd>
   <img id="image"/>
-  <dt id="option2">Or I could play someting</dt>
+  <dt id="option2">Or I could play something</dt>
+  <dd><button id="button2" type="button" onclick="gimmieMusic()">Gimmie Music, DJ!</button>
+  <button onclick="pauseAudio()" type="button">Pause Audio</button></dd>
   <dt>Milk</dt>
 </dl>
-
+  
+<audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+  
 <script>
-function myFunction() { 
+function mySurprise() { 
   document.getElementById("option1").innerHTML = "You bad bitch!";
   document.getElementById("image").src= "https://octodex.github.com/images/hula_loop_octodex03.gif";
   document.getElementById("image").width= 400;
   document.getElementById("image").height= 400;
 }
+
+function gimmieMusic() {
+  document.getElementByID("myAudio").play();
+}
+function pauseMusic(){
+  document.getElementByID("myAudio").pause();
+}
+
 </script>
 
 </body>
