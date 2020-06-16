@@ -25,7 +25,7 @@ h2 {
   font: 40px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
-p,ul {
+p, dl {
   display: block;
   width: 400px;
   margin: 50px auto;
